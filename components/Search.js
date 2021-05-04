@@ -13,14 +13,14 @@ export function Search({ onSearch }) {
   };
 
   return (
-    <div className="mx-auto mt-10 bg-transparent border rounded-md dark:border-gray-700 lg:w-96 focus-within:ring ring-primary focus-within:border-teal-500">
-      <form onSubmit={handleSubmit} className="flex justify-between flex-row">
+    <div className="mx-auto bg-transparent border rounded-md dark:border-gray-700 lg:w-96 focus-within:ring ring-primary focus-within:border-teal-500">
+      <form onSubmit={handleSubmit} className="flex justify-between flex-row ">
         <input
           onChange={handleChange}
           type="url"
           name="url"
           placeholder="Search URL"
-          className="flex-1 p-2 m-1 text-gray-200 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
+          className="flex-1 p-2 m-1 text-black-200 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-black-200 focus:outline-none focus:placeholder-transparent focus:ring-0 "
         />
         <button
           type="submit"
